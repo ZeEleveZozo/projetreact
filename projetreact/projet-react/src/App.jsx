@@ -66,7 +66,6 @@ function App() {
     <div className="main-container">
       <div className="title">
         <h1>LA BOUTIQUE DU CHAMPAGNE</h1>
-        <p>Articles dans le panier : {cart.reduce((acc, item) => acc + item.quantite, 0)}</p>
       </div>
 
       <div className="boutique">
